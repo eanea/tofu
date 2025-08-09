@@ -94,7 +94,7 @@ jobs:
         run: |
           sbt ++3.3 docs/mdoc unidoc
 
-      - name: Install, build, and upload your site
+      - name: Install & build
         uses: withastro/action@v3
         with:
           path: ./website
